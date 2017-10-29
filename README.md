@@ -18,9 +18,12 @@ windows配置系统环境变量。右击**我的电脑**， 选择**属性**，�
 
 添加php的路径和composer的路径到系统变量的path中。比如php.exe在 C:\php7\php.exe 把 **C:\php7\ ** 加入到path中。每个路径用 **;**隔开。把composer.bat或者composer所在目录也加到系统变量中的path中。
 
-比如 **C:\composer\;C:\php7\;**  
 
-重新打开一个cmd窗口。使用php -v 检测环境变量是否生效。![php](composer.png)
+比如 **C:\composer\;C:\php7\;**  ![image](https://github.com/xianyunyh/composer/raw/master/php.png)
+
+重新打开一个cmd窗口。使用php -v 检测环境变量是否生效。
+
+![php](composer.png)
 
 如果看到上面的画面。说明composer已经成功了。因为国外镜像非常慢。所以下一步就是配置国内镜像。
 
